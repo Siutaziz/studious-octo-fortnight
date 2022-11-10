@@ -9,7 +9,7 @@ def start(update,context):
     update.message.reply_text("😎Wassup")
 def time(update,context):
     update.message.reply_text('Time is'+strNow)
-
+ 
 def echo(update,context):
     update.message.reply_text(update.message.text)
 
